@@ -21,7 +21,7 @@
 		<div class="container py-sm-3">
 		<h3 class="heading text-capitalize mb-lg-5 mb-4"> Developers</h3>
 			<div class="row agile-team-grids">
-				<div class="col-lg-3 col-sm-6 team-grid">
+				<div class="col-lg-4 col-sm-6 team-grid">
 					<div class="team-img">
 						<img src="images/t1.jpg" class="img-responsive img-fluid" alt=" " />
 						<div class="overlay">
@@ -39,7 +39,7 @@
 					<!-- <h4>Arun</h4>
 					<span>CEO</span> -->
 				</div>
-				<div class="col-lg-3 col-sm-6 mt-md-0 mt-5 team-grid ">
+				<div class="col-lg-4 col-sm-6 mt-md-0 mt-5 team-grid ">
 					<div class="team-img">
 						<img src="images/t2.jpg" class="img-responsive img-fluid" alt=" " />
 						<div class="overlay">
@@ -57,7 +57,7 @@
 					<!-- <h4>Adharsh</h4>
 					<span>COO</span> -->
 				</div>
-				<div class="col-lg-3 col-sm-6 mt-lg-0 mt-5 team-grid ">
+				<div class="col-lg-4 col-sm-6 mt-lg-0 mt-5 team-grid ">
 					<div class="team-img">
 						<img src="images/t3.jpg" class="img-responsive img-fluid" alt=" " />
 						<div class="overlay">
@@ -75,7 +75,7 @@
 					<!-- <h4>Vishnu</h4>
 					<span>CMO</span> -->
 				</div>
-				<div class="col-lg-3 col-sm-6 mt-lg-0 mt-5 team-grid ">
+				<div class="col-lg-4 col-sm-6 mt-lg-0 mt-5 team-grid ">
 					<div class="team-img">
 						<img src="images/t4.jpg" class="img-responsive img-fluid" alt=" " />
 						<div class="overlay">
@@ -94,7 +94,7 @@
 					<!-- <h4>Vignesh</h4>
 					<span>CFO</span> -->
                 </div>
-                <div class="col-lg-3 col-sm-6 mt-lg-0 mt-5 team-grid ">
+                <div class="col-lg-4 col-sm-6 mt-lg-0 mt-5 team-grid ">
 					<div class="team-img">
 						<img src="images/t2.jpg" class="img-responsive img-fluid" alt=" " />
 						<div class="overlay">
@@ -117,6 +117,19 @@
 		</div>
 	</div> 
 	<!-- //team -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+	<script src="js/tilt.jquery.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('.team-img').tilt({
+				maxTilt:5,
+				glare:true,  // Enables glare effect
+                maxGlare:.3    
+			})
+		})
+	</script>
 </body>
 
 </html>
