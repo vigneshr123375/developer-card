@@ -12,10 +12,7 @@ body{
 
 /*-- team --*/
 
-.team-grid{
-    position: relative;
-   
-}
+
 .team-img:hover{
     box-shadow: 0 30px 20px rgba(0,0,0,.8);
 }
@@ -26,14 +23,18 @@ h3.heading {
     position: relative;
     font-size: 4em;
      color: #FFFFFF; 
+     display: block;
+     height: 5.5rem;
+    
     /* color:  #4070F4; */
     /* filter: blur(px); */
     font-weight: 400;
     text-align: center;
     top: -1rem;
-    margin-bottom: 1rem !important;
+    margin-bottom: -1rem !important;
     text-shadow: 0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,1), 0 0 40px rgba(255,255,255,1), 0 0 80px rgba(255,255,255,1), 0 0 160px rgba(255,255,255,1);
 }
+
 h3.heading:before{
     content: '';
     position: absolute;
@@ -60,7 +61,9 @@ h3.heading span {
     color: #0E2431;
 }
 .team-grid {
+    position: relative;;
     text-align: center;
+    transform-style: preserve-3d !important;
 }
 .team-img {
     position: relative;
@@ -68,12 +71,15 @@ h3.heading span {
     margin-bottom: 2rem;
     border-radius: 10px;
    
+   
 }
+
 .team-img:hover .overlay {
     
     opacity: 1;
     filter: alpha(opacity=100);
     transform: translateY(-80px);
+    
     /* -webkit-transform: rotateY(0deg) scale(1,1);
     -moz-transform: rotateY(0deg) scale(1,1);
     -ms-transform: rotateY(0deg) scale(1,1);
@@ -82,7 +88,7 @@ h3.heading span {
 }
 .team-img .overlay {
    padding: 11em 0.5em;
-    
+
 }
 .team-grid:nth-child(1) .overlay{
     background: linear-gradient(0deg,#3a414c,transparent);
@@ -115,6 +121,7 @@ h3.heading span {
     -moz-transition: all 450ms ease-out 0s;
     -o-transition: all 450ms ease-out 0s;
     transition: all 450ms ease-out 0s;
+    
     /* -webkit-transform: rotateY(180deg) scale(0.5,0.5);
     -moz-transform: rotateY(180deg) scale(0.5,0.5);
     -ms-transform: rotateY(180deg) scale(0.5,0.5);
@@ -127,6 +134,7 @@ h3.heading span {
     font-weight: 900;
     margin-bottom: 5px;
     letter-spacing: 2px;
+    
 }
 .team-grid p {
     font-size: .9em;
@@ -169,6 +177,7 @@ h3.tittle3 {
 	color: #333;
     text-align: center;
 }
+
 .w3l-social ul li a i {
 	height: 40px;
     width: 40px;
@@ -196,6 +205,8 @@ h3.tittle3 {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
+    transform: rotate(45deg) !important;
+    
    
 }
 .w3l-social ul li a i.bx.bxl-github:hover{
@@ -206,6 +217,7 @@ h3.tittle3 {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
+    transform: rotate(45deg) !important;
 }
 .w3l-social ul li a i.bx.bxl-instagram:hover{
 	background: #f26522;
@@ -215,6 +227,7 @@ h3.tittle3 {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
+    transform: rotate(45deg) !important;
 }
 .w3l-social ul li a i.bx.bx-globe:hover{
 	background: #1da1f2;
@@ -224,5 +237,6 @@ h3.tittle3 {
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
+    transform: rotate(45deg) !important;
 }
 /*-- //team --*/

@@ -19,13 +19,15 @@
     <!-- team -->
 	 <div class="team py-5">
 		<div class="container py-sm-3">
-		<h3 class="heading text-capitalize mb-lg-5 mb-4"> Developers</h3>
+			
+		<h3 class="heading text-capitalize mb-lg-5 mb-4 typed"></h3>
+	
 			<div class="row agile-team-grids">
 				<div class="col-lg-4 col-sm-6 team-grid">
 					<div class="team-img">
 						<img src="images/t1.jpg" class="img-responsive img-fluid" alt=" " />
 						<div class="overlay">
-							<h5>Adharsh <br> Web Designer</h5>
+							<h5 class="content">Adharsh <br> Web Designer</h5>
 							<p>Keep In Touch With My Accounts</p>
 							<div class="w3l-social">
 								<ul>
@@ -98,6 +100,7 @@
 					<div class="team-img">
 						<img src="images/t2.jpg" class="img-responsive img-fluid" alt=" " />
 						<div class="overlay">
+							
 							<h5>Vishnu <br> Web Designer </h5>
 							<p>Keep In Touch With My Accounts</p>
 							<div class="w3l-social">
@@ -107,6 +110,7 @@
 									<li><a href="#" title="github"><i class='bx bxl-github' ></i></a></li>
 								</ul>
 							</div>
+						
 						</div>
 					</div>
 					<!-- <h4>Vishnu</h4>
@@ -120,6 +124,7 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
 	<script src="js/tilt.jquery.js"></script>
+	<script src="js/typed.js"></script>
 
 	<script>
 		$(document).ready(function(){
@@ -130,6 +135,18 @@
 			})
 		})
 	</script>
+
+     <script>
+		 var typed = new Typed('.typed', {
+		 strings: ['Developers'],
+		 typeSpeed:80,
+		 backSpeed:80,
+		 loop:true
+         
+        });
+	 </script>
+
+
 </body>
 
 </html>
